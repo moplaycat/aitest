@@ -8,7 +8,7 @@ import sys
 #data = urllib2.urlopen(target_url)
 
 #Read data from file(sonar.all-data.txt)
-fsock = open("../sonar.all-data.txt", "r")
+fsock = open("./sonar.all-data.txt", "r")
 data = fsock.readlines()
 
 #arrange data into list for labels and list of lists for attributes
