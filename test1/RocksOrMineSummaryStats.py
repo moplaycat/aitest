@@ -59,7 +59,6 @@ unique = set(colData)
 sys.stdout.write("Unique Label Values \n"+str(unique))
 
 #count up the number of elements having each value
-
 catDict = dict(zip(list(unique),range(len(unique))))
 catCount = [0]*2
 
